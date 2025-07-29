@@ -187,37 +187,23 @@
       <h2>How to Set Up a VPN</h2>
 
       <h3>Windows</h3>
-      <h3>Private Internet Access</h3>
+      <h3>Mullvad</h3>
       <ul>
-        <li>Purchase a <a href="https://privateinternetaccess.com" target="_blank">Private Internet Access</a> subscription, which is £9.99 monthly or £65.00 for 3 months + 3 years. (ik it's a shit ton of money, but it'll be worth it)</li>
+        <li>Purchase a <a href="https://mullvad.net" target="_blank">Mullvad VPN</a> subscription, which is £4.50 monthly or £52.00 for a year. (ik it's a shit ton of money, but it'll be worth it)</li>
         <li>Install and launch the app</li>
-        <li>Log in and connect to a server, make sure it's outside of the fucking UK, Ireland is the preferred server as it is EU. If it doesn't work, try France (also EU), if you can't get it working on any server, contact PIA for help.</li>
-        <li>A major pro on PIA is that nothing is logged and you can browse the internet safely.</li>
-        <h3>Mullvad</h3>
-        <li>Another good VPN service is <a href="https://mullvad.net" target="_blank">Mullvad VPN</a>, which is more private and cheaper, only for roughly £4.50</li>
-        <li>As same as before, install and launch, make sure it's on an EU country server. Doesn't work, contact Mullvad.</li>
-        <li>A con from Mullvad is that you can't torrent on it as it would ruin it's bandwith.</li>
-        <li>Free VPNS are also fine, just be careful, some of them are spyware, like Hola VPN. I personally recommend Windscribe, PrivadoVPN or Proton VPN.</li>
+        <li>Log in and connect to a server, make sure it's outside of the fucking UK, Ireland is the preferred server as it is EU. If it doesn't work, try France (also EU), if you can't get it working on any server, contact Mullvad for help.</li>
+        <li>A major pro on Mullvad is that nothing is logged and you can browse the internet safely. A con from Mullvad is that you can't torrent on it as it would ruin it's bandwith.</li>
+        <h3>Proton VPN</h3>
+        <li>Another good VPN service is <a href="https://protonvpn.com/" target="_blank">Proton VPN</a>, which is £83.00 for a 2 year subscription.</li>
+        <li>As same as before, install and launch, make sure it's on an EU country server. Doesn't work, contact Proton.</li>
+        <li>A con from Proton VPN is that you can't torremt on a free plan. And that it can be a bit slow.</li>
+        <li>Free VPNS are also fine, just be careful, some of them are spyware, like Hola VPN. I personally recommend Windscribe, PrivadoVPN or RiseupVPN.</li>
       </ul>
       </section>
 
       
       <section id="linux">
       <h3>Linux</h3>
-      <p>The same, but requires a bit more setup.</p>
-      <ul>
-      <h3>Private Internet Access</h3>
-
-      <li>Download the script off PIA's website, then open your terminal and cd into the folder where you put the run file in, usually in Downloads</li>
-      <pre><code>
-      sudo chmod +x pia-linux # Tab to complete
-      ./pia-linux
-      </code></pre>
-      <li>Or if you're on an Arch Linux based distro, install using an AUR helper.</li>
-      <pre><code>
-        yay -S private-internet-access-vpn
-        </code></pre>
-      <li>And it should install. Connect to an EU server.</li>
 
       <h3>Mullvad</h3>
       <li>Ubuntu/Debian</li>
@@ -247,11 +233,14 @@ sudo dnf config-manager --add-repo https://repository.mullvad.net/rpm/stable/mul
 sudo dnf install mullvad-vpn
 </code></pre>
 
+
+
 <li>Arch Linux</li>
 <pre><code>
     yay -S  mullvad-vpn-bin
     </code></pre>
 </section>
+<li>You can also get Proton on Linux, however it is not as advanced as the version you'd get on windows.</li>
 
 
 
@@ -283,7 +272,7 @@ sudo dnf install mullvad-vpn
       <ul>
         <li><strong>Browsers:</strong> Firefox, Mullvad Browser</li>
         <li><strong>DNS:</strong> NextDNS, AdGuard DNS, DNS0.eu</li>
-        <li><strong>Extensions:</strong> uBlock Origin, Privacy Badger</li>
+        <li><strong>Extensions:</strong> uBlock Origin</li>
       </ul>
     </section>
 
